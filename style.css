@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Archivo;
+    src: url('fonts\Archivo\woff2\Archivo-SemiBold.woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+    color: rgb(245, 242, 242);
+}
+
+h1 {
+    font-family: Archivo;
+}
