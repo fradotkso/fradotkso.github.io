@@ -56,5 +56,19 @@ h6 {
 }
 
 p {
-    font-family: Archivo;
+    font-family: TimesRoman;
+}
+
+/*
+p.terminal {
+    font-family: Terminal;
+}
+*/
+
+i {
+    font-family: TimesRomanItalic;
+}
+
+i.header {
+    font-family: ArchivoItalic;
 }
