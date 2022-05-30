@@ -5,11 +5,56 @@
     font-weight: 800;
 }
 
+@font-face {
+    font-family: ArchivoItalic;
+    src: url('fonts\Archivo\woff2\Archivo-SemiBold.woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: TimesRoman;
+    src: url('fonts\Archivo\woff2\Archivo-SemiBold.woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: TimesRomanItalic;
+    src: url('fonts\Archivo\woff2\Archivo-SemiBold.woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+
 body {
     background-color: rgb(47, 47, 47);
     color: rgb(245, 242, 242);
 }
 
 h1 {
+    font-family: Archivo;
+}
+
+h2 {
+    font-family: Archivo;
+}
+
+h3 {
+    font-family: Archivo;
+}
+
+h4 {
+    font-family: Archivo;
+}
+
+h5 {
+    font-family: Archivo;
+}
+
+h6 {
+    font-family: Archivo;
+}
+
+p {
     font-family: Archivo;
 }
