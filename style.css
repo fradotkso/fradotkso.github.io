@@ -25,7 +25,6 @@ body {
 
 h1 {
     font-family: Archivo;
-    font-size: 1rem;
 }
 
 h2 {
@@ -52,11 +51,11 @@ p {
     font-family: TimesRoman;
 }
 
-/*
-p.terminal {
-    font-family: Terminal;
+
+.terminal {
+    font-family: 'Courier New', Courier, monospace;
 }
-*/
+
 
 i {
     font-family: TimesRomanItalic;
@@ -64,4 +63,12 @@ i {
 
 i.header {
     font-family: ArchivoItalic;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
 }
