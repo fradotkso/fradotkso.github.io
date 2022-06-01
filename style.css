@@ -54,14 +54,15 @@ p {
 
 .terminal {
     font-family: 'Courier New', Courier, monospace;
-    background-color: dark-grey;
+    background-color: rgba(o, o, o, o.2);
     border-style: solid;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.2);
     border-width: 1px;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-right: 2px;
     padding-left: 2px;
+    margin: 1px;
 }
 
 
