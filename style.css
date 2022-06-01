@@ -54,6 +54,13 @@ p {
 
 .terminal {
     font-family: 'Courier New', Courier, monospace;
+    background-color: dark-grey;
+    border-style: solid;
+    border-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 
