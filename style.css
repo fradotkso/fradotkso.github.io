@@ -54,7 +54,7 @@ p {
 
 .terminal {
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(o, o, o, o.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.2);
     border-width: 1px;
