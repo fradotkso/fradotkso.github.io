@@ -57,6 +57,7 @@ p {
     background-color: dark-grey;
     border-style: solid;
     border-color: black;
+    border-width: 1px;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-right: 2px;
