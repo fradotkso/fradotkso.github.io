@@ -74,5 +74,6 @@ i.header {
 }
 
 .opensourceimage {
-    size: 1em
+    height: 80px;
+    width: 77.5px;
 }
