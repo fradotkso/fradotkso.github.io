@@ -54,6 +54,7 @@ p {
 
 .terminal {
     font-family: 'Courier New', Courier, monospace;
+    color: white;
     background-color: rgba(0, 0, 0, 0.2);
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.2);
@@ -84,7 +85,6 @@ i.header {
     bottom: 0;
     width: 100%;
     text-align: right;
-    margin-bottom: 0%;
 }
 
 .opensourceimage {
@@ -94,4 +94,32 @@ i.header {
 
 .invis-href {
     color: white;
+}
+
+#no-underline {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0);
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(37, 37, 37);
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+#asciiart {
+    color: rgb(0, 192, 255);
+    padding-top: 40px;
+}
+
+pre {
+    margin: 0 0 0 0;
+    padding-top: 13px;
+}
+
+.maintitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
