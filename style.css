@@ -49,6 +49,7 @@ h6 {
 
 p {
     font-family: TimesRoman;
+    margin: 0 0 0 0;
 }
 
 
@@ -122,4 +123,9 @@ pre {
 .maintitle {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.whoami {
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
