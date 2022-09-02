@@ -129,3 +129,19 @@ pre {
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
+.size-limited{
+    width: fit-content;
+    margin-right: 0%;
+    float: left;
+}
+
+.align-right {
+    float: right;
+    padding-right: 4ch;
+}
+
+.center-title {
+    display: flex;
+    justify-content: center;
+}
