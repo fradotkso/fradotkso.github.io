@@ -86,6 +86,7 @@ i.header {
     bottom: 0;
     width: 100%;
     text-align: right;
+    margin-top: 4ch;
 }
 
 .opensourceimage {
