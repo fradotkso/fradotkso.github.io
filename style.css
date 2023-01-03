@@ -18,9 +18,15 @@
     src: url(sources/fonts/Times-Roman/woff2/OPTITimesRoman-Italic.woff2);
 }
 
+@font-face {
+    font-family: CyrillicGaramond;
+    src: url(sources/fonts/EBGaramond/EBGaramond-Regular.woff2);
+}
+
 body {
     background-color: rgb(47, 47, 47);
     color: rgb(245, 242, 242);
+    margin: 0 0 0 0;
 }
 
 h1 {
@@ -49,35 +55,33 @@ h6 {
 
 p {
     font-family: TimesRoman;
-    margin: 0 0 0 0;
 }
 
+.nav {
+    background-color: rgb(37, 37, 37);
+    top: 0;
+    height: max-content;
+    width: 100%;
+    padding: 1px 0 1px 0;
+}
 
-.terminal {
-    font-family: 'Courier New', Courier, monospace;
+.navhref {
     color: white;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.2);
-    border-width: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-right: 2px;
-    padding-left: 2px;
-    margin: 1px;
+    text-decoration-color: rgba(0, 0, 0, 0);
 }
 
-div.terminal {
-    max-width: 80ch;
+#godown{
+    height: 60px;
 }
 
-
-i {
-    font-family: TimesRomanItalic;
+.cyrillic {
+    font-family: CyrillicGaramond;
+    padding-top: 68.425px;
 }
 
-i.header {
-    font-family: ArchivoItalic;
+.logo {
+    color: rgb(0, 192, 255);
+    width: fit-content;
 }
 
 .footer {
@@ -87,62 +91,4 @@ i.header {
     width: 100%;
     text-align: right;
     margin-top: 4ch;
-}
-
-.opensourceimage {
-    height: 40px;
-    width: 38.75px;
-}
-
-.invis-href {
-    color: white;
-}
-
-#no-underline {
-    text-decoration: underline;
-    text-decoration-color: rgba(0, 0, 0, 0);
-}
-
-.navbar {
-    position: fixed;
-    background-color: rgb(37, 37, 37);
-    top: 0;
-    height: auto;
-    width: 100%;
-}
-
-#asciiart {
-    color: rgb(0, 192, 255);
-    padding-top: 40px;
-}
-
-pre {
-    margin: 0 0 0 0;
-    padding-top: 13px;
-}
-
-.maintitle {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.whoami {
-    margin-bottom: 2px;
-    margin-top: 2px;
-}
-
-.size-limited{
-    width: fit-content;
-    margin-right: 0%;
-    float: left;
-}
-
-.align-right {
-    float: right;
-    padding-right: 4ch;
-}
-
-.center-title {
-    display: flex;
-    justify-content: center;
 }
