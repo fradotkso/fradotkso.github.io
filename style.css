@@ -87,6 +87,7 @@ ul {
     width: auto;
     padding-right: 40px;
     float: right;
+    transform: translateY(-25%);
 }
 
 .cyrillic {
