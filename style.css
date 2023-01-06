@@ -57,6 +57,11 @@ p {
     font-family: TimesRoman;
 }
 
+ul {
+    width: fit-content;
+    margin-right: 0;
+}
+
 .nav {
     background-color: rgb(37, 37, 37);
     top: 0;
@@ -65,13 +70,23 @@ p {
     padding: 1px 0 1px 0;
 }
 
+#nav {
+    width: fit-content;
+    margin-inline-start: 0px;
+    margin-right: 0px;
+    padding-inline-start: 40px;
+}
+
 .navhref {
     color: white;
     text-decoration-color: rgba(0, 0, 0, 0);
 }
 
-#godown{
-    height: 60px;
+.spin {
+    height: 70px;
+    width: auto;
+    padding-right: 40px;
+    float: right;
 }
 
 .cyrillic {
